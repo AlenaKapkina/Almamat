@@ -1,0 +1,18 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner str = new Scanner(System.in);
+		System.out.println("Enter your name: ");
+		Scanner num = new Scanner(System.in);
+		int first, second, result;
+		System.out.println("Hello, " + str.nextLine () + ", enter first number: ");
+		first = num.nextInt();
+		System.out.println("Enter second number: ");
+		second = num.nextInt();
+		result = first + second;
+		System.out.println("Sum is " + result);
+	}
+
+}
